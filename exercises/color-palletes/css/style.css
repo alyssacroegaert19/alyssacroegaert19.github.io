@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#ou-crimson-heading{
+    background-color:#880d1e;
+    color: white; 
+    font-family:cursive;
+    text-align:center;
+    padding: 24px;
+}
+
+#rusty-red-heading{
+    background-color: #dd2d4a;
+    color: black;
+    font-family:cursive;
+    text-align: center;
+    padding: 24px
+
+
+}
+
+
