@@ -20,9 +20,33 @@ body {
     color: black;
     font-family:cursive;
     text-align: center;
-    padding: 24px
+    padding: 24px;
+}
 
+#bright-pink-heading{
+    background-color:#F26A8D;
+    color: white; 
+    font-family:cursive;
+    text-align:center;
+    padding: 24px;
+
+}
+
+#amaranth-pink-heading{
+    background-color: #F49CBB;
+    color: white;
+    font-family: cursive;
+    text-align:center;
+    padding: 24px;
 
 }
 
 
+#light-cyan-heading{
+    background-color: #CBEEF3;
+    color: black;
+    font-family: cursive;
+    text-align:center;
+    padding: 24px;
+
+}
