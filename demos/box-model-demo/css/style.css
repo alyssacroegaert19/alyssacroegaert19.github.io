@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    border-radius:5px;
+    margin: 24px;
+    padding: 36px;
+    background-color: yellow;
+}
