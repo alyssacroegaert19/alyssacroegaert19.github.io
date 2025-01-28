@@ -1,0 +1,49 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.first-image {
+    height: 150px;
+    width: 100px;
+    display: block;
+}
+
+.second-image {
+    height: 100px;
+    width: 150px;
+    display: block;
+}
+
+.third-image {
+    height: 150px;
+    width: 100;
+    display: block;
+   
+}
+
+.first-inner-frame {
+    
+}
+
+.first-outer-frame {
+    border: solid 2px pink;
+    margin: 20px;
+}
+
+.second-outer-frame {
+    border: solid 5px black;
+    margin: 20px;
+}
+
+.third-outer-frame {
+    border: solid 2px green;
+    margin: 10px;
+}
+
+
+
