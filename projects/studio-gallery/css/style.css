@@ -11,39 +11,59 @@
     height: 150px;
     width: 100px;
     display: block;
+    border-radius: 50%;
 }
 
 .second-image {
     height: 100px;
-    width: 150px;
+    width: 100%;
     display: block;
+    border-radius: 20%;
 }
 
 .third-image {
     height: 150px;
-    width: 100;
+    width: 100px;
     display: block;
-   
-}
-
-.first-inner-frame {
-    
+    border-radius: 50%;
 }
 
 .first-outer-frame {
-    border: solid 2px pink;
+    border: solid 3px blue;
     margin: 20px;
+    border-radius: 50%;
+}
+
+.first-inner-frame {
+    border: solid 2px blueviolet;
+    border-radius: 50%;
+    padding: 2px;
 }
 
 .second-outer-frame {
-    border: solid 5px black;
-    margin: 20px;
+    border: solid 3px black;
+    margin: 30px;
+    border-radius: 23%;
+}   
+.second-inner-frame {
+    border: solid 2px purple;
+    border-radius: 22%;
 }
 
 .third-outer-frame {
-    border: solid 2px green;
+    border: solid 2px rgb(6, 5, 76);
     margin: 10px;
+    border-radius: 50%;
 }
 
+.featured-text-inner-frame {
+    background-color: lightskyblue;
+    padding: 10px;
+    border-radius: 20px;
+}
 
-
+.featured-text-outer-frame {
+    margin: 10px;
+    border-radius: 20px;
+    
+}
