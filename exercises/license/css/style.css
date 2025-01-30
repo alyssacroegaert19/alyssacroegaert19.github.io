@@ -9,31 +9,39 @@
 
 #license {
     width: 700px;
-    border: 30px;
-    border-radius: 40px;
+    border: 50%;
+    border-radius: 20px;
     padding: 24px;
 }
 
 #left-side {
     display: inline-block; 
     width: 65%;
+    padding: 30px 40px 60px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #right-side {
     display: inline-block; 
     width: 34%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-#id-and-expiration {
-    display: inline-block;   
+.small-image {
+    width: 100px;
 }
 
-
-#small-pic-container {
+#id-expiration {
     display: inline-block;
 }
 
 #data-fields {
+    display: inline-block;
+}
+
+#small-pic-container {
     display: inline-block;
 }
 
@@ -42,5 +50,17 @@
 }
 
 #data-right {
-    displsy: inline-block;
+    display: inline-block;
+}
+
+#signature {
+    text-align: center;
+}
+
+#donor {
+    display: inline-block;
+}
+
+#real-id {
+    display: inline-block;
 }
