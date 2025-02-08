@@ -42,16 +42,20 @@
 .animagram-footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: x-large;
     margin: 40px 0px 25px;
     
 }
 
 .animagram-header {
-    font-size: x-large;
     display: flex;
     justify-content: space-between;
     margin: 10px;
 
+}
+.brand-name {
+    font-size: 29px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
