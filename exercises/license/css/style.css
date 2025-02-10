@@ -9,12 +9,13 @@
 
 
 #license {
-    background: linear-gradient(to right, rgb(244, 194, 66), rgb(246, 152, 93));
+    background: linear-gradient(to right, rgb(245, 200, 86), rgb(246, 152, 93));
     width: 600px;
     border: solid 2px;
     border-radius: 30px;
-    padding: 22px;
-    box-shadow: 5px 5px;
+    padding: 20px;
+    box-shadow: 3px 4px 3px;
+    color: rgb(132, 101, 101);
 }
 
 #left-side {
@@ -58,6 +59,8 @@
 
 #data-left {
     display: inline-block;
+    margin: 0px 0px 10px;
+    padding: 0px 10px;
 }
 
 #data-left div {
@@ -69,6 +72,7 @@
     font-family: fantasy;
     font-size: small;
     color: red;
+     margin: 0px 0px 10px;
 }
 
 #data-right span {
@@ -93,53 +97,48 @@
 
 #right-side img {
     width: 100%;
-    margin: 10px 0px 20px;
+    margin: 10px 0px 11px;
 }
 
 #donor {
     color: red;
     display: inline-block;
-    margin: 0px 10px;
+    margin: 0px 20px;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
 
 #real-id {
-    border-radius: 10px;
+    border-radius: 9px;
     color: white;
     display: inline-block;
-    background-color: #fbde39;
+    background-color: gold;
 }
 
 #data-fields {
     color: white;
     display: inline-block;
-    margin: 10px 5px;
-    padding: 10px 20px; 
+    margin: 10px 5px 10px;
+    padding: 10px 20px
 } 
 
 #content h4 {
     background-color: darkblue;
     text-align: center;
     color: white;
-    padding: 5px;
-    margin: 1px 10px 10px;
+    padding: 6px;
+    margin: 10px 10px 0px;
 }
 
 #content h1 {
     color: darkblue;
     text-align: left;
-    margin: 0px 10px 10px;
-    font-weight: 5px;
+    margin: 0px 11px;
 }
 
 #address {
-    font-family:sans-serif;
-    margin: 0px 0px 15px;
-}
-
-#data-left {
-    margin: 0px 0px 10px;
-    
+    font-family: sans-serif;
+    margin: 0px 0px 1px;
+    color: black;
 }
