@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+background-image: url("../images/church-4964183_1280.jpg");
+height: 100vh;
+background-size: cover;
+background-position: center center;
+display: flex;
+}
+    
+
+#hero-1 h1 {
+    font-size: 100px;
+    position: fixed; 
+    left: 55%;
+}
+
+#hero-1 h4 {
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    right: 11%;
+    top: 37%;
+}
+
+#hero-1 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color:#333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    left: 70%;
+    bottom: 43%;
+}
+
+#hero-2 {
+    background-image: url("../images/cosmos-7709242_1280.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+#hero-2 h1 {
+    font-size: 100px;
+    position: absolute; 
+    right: 30%;
+}
+
+#hero-2 h4 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 5%;
+    bottom: 50%
+}
+    
+#hero-2 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color:darkblue;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    position: absolute;
+    left: 5%;
+    bottom: 45%;
+}
+
+#hero-3 {
+    background-image: url("../images/desert-8592629_1280.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+#hero-3 h1 {
+    font-size: 90px;
+    position: fixed; 
+    left: 8%;
+}
+
+#hero-3 h4 {
+    font-size: 35px;
+    color: black;
+    position: relative;
+    left: 10%;
+    top: 20%
+
+}
+
+#hero-3 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color:darkmagenta;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+}
