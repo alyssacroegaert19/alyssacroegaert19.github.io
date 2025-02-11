@@ -10,7 +10,7 @@
 
 #license {
     background: linear-gradient(to right, rgb(245, 200, 86), rgb(246, 152, 93));
-    width: 600px;
+    min-width: 600px;
     border: solid 2px;
     border-radius: 30px;
     padding: 20px;
@@ -87,6 +87,7 @@
 
 #data-right div {
     color: darkblue;
+    font-family: serif;
 }
 
 #signature {
