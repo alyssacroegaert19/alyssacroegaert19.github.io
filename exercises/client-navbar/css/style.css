@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #5a9a2f, #103f0a);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #39ffbd;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+#navbar h1 {
+    color: rgb(189, 233, 59);
+}
+
+.roboto-uniquifier {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  #navbar .cta-button {
+    background-color: white;
+    color: green;
+    border-radius: 30px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar-2 {
+    background: linear-gradient(to bottom, #be7d32, #f8bf39);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: #b6ff39;
+    padding: 24px;
+    margin: 10px;
+}
+
+#navbar-2 .cta-button {
+    background-color: rgb(232, 86, 86);
+    color: white;
+    border-radius: 30px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+
+#navbar-3 {
+    background: linear-gradient(to bottom, #4D5061, #4135c6);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#navbar-3 h1 {
+    color: #090302;
+}
