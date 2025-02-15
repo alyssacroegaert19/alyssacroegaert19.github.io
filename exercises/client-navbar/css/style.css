@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
 *
 {
     box-sizing: border-box;
@@ -10,23 +12,22 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(to bottom, #5a9a2f, #103f0a);
+    background: linear-gradient(to bottom, #64ab35, #185d0f);
     display: flex;
-    justify-content: left;
     align-items: center;
+    color: rgb(168, 55, 3);
+    padding: 16px 24px;
+    font-size: 19px;
 }
 
 #navbar a {
+    display: flex;
+    justify-content: center;
     text-decoration: none;
-    color: #39ffbd;
-    padding: 20px;
-    margin: 10px;
+    color: #b3ffe6;
+    margin: 10px 20px;
 }
 
-
-#navbar h1 {
-    color: rgb(189, 233, 59);
-}
 
 .roboto-uniquifier {
     font-family: "Roboto", serif;
@@ -50,9 +51,9 @@ body {
 }
 
 #navbar-2 {
-    background: linear-gradient(to bottom, #be7d32, #f8bf39);
+    background: linear-gradient(to bottom, #feb665, #f8bf39);
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 
@@ -71,18 +72,77 @@ body {
     font-size: 20px;
     font-weight: bold;
     min-width: 150px;
-    text-align: center;
+    text-align: right;
     margin-right: 24px;
 }
 
 
 #navbar-3 {
-    background: linear-gradient(to bottom, #4D5061, #4135c6);
+    background: linear-gradient(to bottom, #500073, #500073);
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+}
+
+
+#navbar-bottom-3 {
+    background: linear-gradient(to bottom, #fb8c23, #BE3144 );
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-#navbar-3 h1 {
-    color: #090302;
+#navbar-bottom-3 a {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 16px;
+    color: #f3ba79;
+    margin: 20px;
 }
+
+#navbar-bottom-4 {
+    background: linear-gradient(to bottom, #ea3434, #f16376 );
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navbar-bottom-4 a {
+    text-decoration: none;
+    color: #f3ba79;
+    padding: 10px;
+}
+
+#navbar-bottom-4 .cta-button {
+    background-color: #5d0284;
+    color: rgb(254, 254, 254);
+    border-radius: 36px;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 10px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.header-3 {
+    display: flex;
+    align-items: left;
+    font-size: 15px;
+    
+}
+
+.rubik-distressed-regular {
+    font-family: "Rubik Distressed", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .atma-light {
+    font-family: "Atma", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
