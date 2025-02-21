@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.gallery-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "card1 card2 card3 card4";
+    padding: 24px;
+    border: 4px solid black;
+    gap: 5px;
+}
+
+.card1 {
+    grid-area: card1;
+    height: 150px;
+    
+
+}
+
+.card1 img {
+    width: 100%;
+    height: 100%;
+}
+.card2 {
+    grid-area: card2;
+    height: 150px;
+} 
+
+.card2 img {
+    width: 100%;
+    height: 100%;
+}
+.card3{
+    grid-area: card3;
+    height: 150px;
+ 
+ }
+ 
+ .card3 img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .card4 {
+    grid-area: card4;
+    height: 150px;
+ 
+ }
+ 
+ .card4 img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .jewerly-cards:hover {
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-8px);
+ }
+
+ .dogs-cards:hover {
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+.dogs-cards {
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+.cats-cards:hover {
+    background-color: aquamarine;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+.cats-cards {
+    transition: 
+        opacity 0.5s;
+        visibility: 0.5s;
+}
+
+.header h1 {
+   text-align: center;
+
+}
