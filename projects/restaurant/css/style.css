@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(to bottom,red, darkred);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar .header {
+    font-size: 20px;
+    margin-right: auto;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-weight: bold;
+}
+
+#hero {
+    background-image: url("../images/parker-hilton-puYMaD160_A-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 85px;
+    position: absolute;
+    top: 0%;
+    color: rgb(250, 249, 249);
+    padding: 30px;
+}
+
+#hero a {
+    text-decoration: none;
+    color: green;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: black;
+    border-radius: 18px;
+    margin: 60px;
+    align-items: center;
+
+}
+
+.single-column {
+    min-width: 900px;
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: rgb(235, 205, 165);
+}
+
+#main-section {
+    padding: 48px;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    margin: 20px auto;
+    padding: 30px 27px;
+}
+
+.side-by-side .image-container img {
+    width: 100%;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#layout {
+    background-color: #729e69;
+}
+
+.side-by-side .text-container a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: red;
+    border: 3px solid rgb(94, 15, 12);
+    color: white;
+    padding: 24px;
+    border-radius: 30px;
+}
+
+.text-container p {
+    font-size: 19px;
+}
+
+
+#footer {
+    background: linear-gradient(to bottom, red, darkred);
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+#footer-navbar {
+    width: 1000px;
+    margin: 0px auto;
+    display: flex;
+
+}
+
+/* MOBILE BREAKPOINT*/
+@media screen and (max-width: 800px) and (min-width: 480px) {
+
+#navbar .header {
+    display: inline-block;
+    margin-right: 50%;
+    margin-left: 50%;
+}
+
+#hero h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(36, 147, 55);
+}
+
+.hero-content p {
+    font-size: 53px;
+    font-weight: bold;
+    padding: 34px;
+    margin: 0px auto;
+    color: rgba(248, 2, 101, 0.702);
+}
+
+#navbar {
+    flex-direction: column;
+}
+#navbar #logo {
+    margin-right: 0px;
+}
+
+#hero :hover a {
+    text-decoration: none;
+    color: rgb(0, 128, 0);
+    border: 3px solid black;
+    padding: 20px;
+    background-color: rgb(93, 9, 9);
+    border-radius: 18px;
+    margin: 60px;
+    align-items: center;
+
+}
+
+.side-by-side :hover a {
+    background-color: darkred;
+}
+}
