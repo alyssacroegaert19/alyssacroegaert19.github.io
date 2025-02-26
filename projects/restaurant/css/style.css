@@ -8,7 +8,7 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(to bottom,red, darkred);
+    background: linear-gradient(to bottom,rgb(106, 219, 239), rgb(18, 142, 158));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@ body {
 }
 
 #hero {
-    background-image: url("../images/parker-hilton-puYMaD160_A-unsplash.jpg");
+    background-image: url("../images/dinning-table-4272043_1280.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -51,10 +51,10 @@ body {
 
 #hero a {
     text-decoration: none;
-    color: green;
+    color: rgb(0, 8, 6);
     border: 3px solid black;
     padding: 20px;
-    background-color: black;
+    background-color: rgb(148, 230, 243);
     border-radius: 18px;
     margin: 60px;
     align-items: center;
@@ -63,8 +63,9 @@ body {
 
 .single-column {
     min-width: 900px;
-    max-width: 1200px;
-    margin: 0px auto;
+    max-width: 1000px;
+    margin: 20px;
+    padding: 80px;
     background-color: rgb(235, 205, 165);
 }
 
@@ -92,7 +93,8 @@ body {
 }
 
 .side-by-side .image-container img {
-    width: 100%;
+    width: 450px;
+    height: 100vh;
 }
 
 .side-by-side .text-container h3 {
@@ -101,40 +103,76 @@ body {
     align-items: center;
 }
 
-#layout {
-    background-color: #729e69;
-}
 
 .side-by-side .text-container a {
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: red;
+    background-color: rgb(134, 25, 125);
     border: 3px solid rgb(94, 15, 12);
     color: white;
-    padding: 24px;
+    padding: 14px;
     border-radius: 30px;
 }
 
 .text-container p {
+    display: flex;
+    align-items: center;
     font-size: 19px;
 }
 
 
 #footer {
-    background: linear-gradient(to bottom, red, darkred);
+    background: linear-gradient(to bottom, rgb(94, 182, 237), rgb(24, 161, 169));
     color: white;
-    padding: 12px;
+    padding: 1px;
     text-align: left;
 }
 
 #footer-navbar {
-    width: 1000px;
+    width: 1200px;
     margin: 0px auto;
     display: flex;
 
 }
+
+#single-column {
+    min-width: 900px;
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: rgb(235, 205, 165);
+}
+
+#card-section {
+    background-color: #711382;
+    color: #bfefff;
+    padding: 4px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid #bfefff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+
 
 /* MOBILE BREAKPOINT*/
 @media screen and (max-width: 800px) and (min-width: 480px) {
@@ -144,12 +182,11 @@ body {
     margin-right: 50%;
     margin-left: 50%;
 }
-
 #hero h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: rgb(36, 147, 55);
+    color: rgb(216, 242, 99);
 }
 
 .hero-content p {
@@ -157,7 +194,6 @@ body {
     font-weight: bold;
     padding: 34px;
     margin: 0px auto;
-    color: rgba(248, 2, 101, 0.702);
 }
 
 #navbar {
@@ -167,19 +203,112 @@ body {
     margin-right: 0px;
 }
 
+#hero a {
+    position: absolute;
+    align-items: center;
+    bottom: 15%;
+}
+
 #hero :hover a {
     text-decoration: none;
-    color: rgb(0, 128, 0);
+    color: rgb(203, 232, 249);
     border: 3px solid black;
     padding: 20px;
-    background-color: rgb(93, 9, 9);
+    background-color: rgb(93, 9, 73);
     border-radius: 18px;
-    margin: 60px;
     align-items: center;
-
+    position: absolute;
+    bottom: 15%;
 }
 
 .side-by-side :hover a {
     background-color: darkred;
+}
+
+.side-by-side {
+    display: flex;
+    width: 600px;
+    height: 100vh;
+}
+
+
+#card-section {
+    background-color: #711382;
+    color: #bfefff;
+    padding: 1px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid #bfefff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+#main-section {
+    padding: 48px;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    margin: 20px auto;
+    padding: 30px 27px;
+}
+
+.side-by-side .image-container img {
+    width: 350px;
+    height: 90vh;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.side-by-side .text-container a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(134, 25, 125);
+    border: 3px solid rgb(94, 15, 12);
+    color: white;
+    padding: 14px;
+    border-radius: 30px;
+}
+
+.text-container p {
+    font-size: 19px;
 }
 }
