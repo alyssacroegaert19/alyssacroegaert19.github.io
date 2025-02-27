@@ -117,7 +117,6 @@ body {
     font-size: 19px;
 }
 
-
 #footer {
     background: linear-gradient(to bottom, rgb(94, 182, 237), rgb(24, 161, 169));
     color: white;
@@ -129,10 +128,9 @@ body {
     width: 1200px;
     margin: 0px auto;
     display: flex;
-
 }
 
-#single-column {
+.single-column {
     min-width: 900px;
     max-width: 1200px;
     margin: 0px auto;
@@ -168,7 +166,93 @@ body {
     margin: 24px 0px 0px;
 }
 
+.single-column-2 {
+    max-width: 1000px;
+    height: 100%;
+    margin: 50px;
+    padding: 80px;
+    background-color: rgb(235, 205, 165);
+}
 
+.side-by-side-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-by-side-2 .image-container-2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.side-by-side-2 .text-container-2 {
+    flex: 1;
+    margin: 10px;
+    padding: 30px 27px;
+}
+
+.side-by-side-2 .image-container-2 img {
+    width: 450px;
+    height: 100vh;
+}
+
+.side-by-side-2 .text-container-2 h1 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.side-by-side-2 .text-container-2 a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(134, 25, 125);
+    border: 3px solid rgb(94, 15, 12);
+    color: white;
+    padding: 14px;
+    border-radius: 30px;
+}
+
+.text-container-2 p {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+
+.single-column-2 h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.text-container-2 h3 {
+    font-size: 40px;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 5px solid black;
+    padding: 2px;
+    gap: 5px;
+}
+.menu-gallery img {
+    width: 100%;
+}
+
+#layout {
+    max-width: 400px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.cropped-grid-gallery {
+    
+}
 /* MOBILE BREAKPOINT*/
 @media screen and (max-width: 800px) and (min-width: 480px) {
 
@@ -177,6 +261,7 @@ body {
     margin-right: 0px;
     font-size: 20px;
 }
+
 #hero h1 {
     display: flex;
     flex-direction: column;
@@ -225,7 +310,6 @@ body {
     width: 600px;
     height: 100vh;
 }
-
 
 #card-section {
     background-color: #711382;
@@ -310,5 +394,4 @@ body {
 .single-column {
     min-width: 750px;
 }
-
 }
