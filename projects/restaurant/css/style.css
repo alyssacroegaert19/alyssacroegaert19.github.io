@@ -142,11 +142,17 @@ body {
 #card-section-1 {
     background-color: #711382;
     color: #bfefff;
-    padding: 24px;
+    padding: 2px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    font-size: 20px;
 }
 
+
+#card-section-1 p {
+    padding: 20px;
+}
 #card-section {
     background-color: #711382;
     color: #bfefff;
@@ -175,6 +181,7 @@ body {
 .card-1 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     border: 3px solid #bfefff;
     padding: 36px;
     text-align: center;
@@ -191,6 +198,7 @@ body {
     flex: 1;
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 
 .side-by-side-2 .text-container-2 {
@@ -225,7 +233,7 @@ body {
 .text-container-2 p {
     display: flex;
     align-items: center;
-    font-size: 19px;
+    font-size: 22px;
 }
 
 .single-column-2 h1 {
@@ -235,7 +243,7 @@ body {
 }
 
 .text-container-2 h3 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .single-column-3 {
@@ -295,7 +303,8 @@ body {
 #navbar .header {
     text-align: center;
     margin-right: 0px;
-    font-size: 20px;
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 #hero h1 {
@@ -313,10 +322,8 @@ body {
 }
 
 #navbar {
+    display: flex;
     flex-direction: column;
-}
-#navbar #logo {
-    margin-right: 0px;
 }
 
 #hero a {
@@ -375,6 +382,7 @@ body {
     font-size: 24px;
     margin: 24px 0px 0px;
 }
+
 #main-section {
     padding: 0px;
     max-width: 750px;
@@ -382,7 +390,7 @@ body {
 
 .side-by-side {
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -439,9 +447,47 @@ body {
 }
 
 #footer-navbar {
-    width: 1200px;
     margin: 0px auto;
     display: flex;
 } 
+
+.single-column-2 {
+    min-width: 0px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 100%;
+    background-color: rgb(235, 205, 165);
+}
+
+.single-column-2 h1 {
+    display: block;
+    font-size: 35px
+}
+
+.side-by-side-2 .image-container-2 img {
+    width: 200px;
+    height: 50vh;
+    margin-left: 80px;
+}
+.text-container-2 h3 {
+    font-size: 30px
+}
+#text-container-3 h1 {
+    font-size: 30px;
+}
+
+.side-by-side-2 .text-container-2 a:hover  {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(191, 65, 181);
+    border: 3px solid rgb(94, 15, 12);
+    color: white;
+    padding: 14px;
+    border-radius: 30px;
+}
 
 }
