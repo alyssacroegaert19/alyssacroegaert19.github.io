@@ -26,13 +26,20 @@ body {
 
 #centered-column {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 #centered-column img {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 550px;
+}
+
+#centered-column .image-container {
+    display: flex;
+    justify-content: center;
 }
 
 .single-column {
@@ -109,7 +116,6 @@ body {
     color: white;
     padding: 24px 30px;
     border-radius: 48px;
-
 }
 
 .single-column {
