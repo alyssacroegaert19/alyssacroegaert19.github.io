@@ -22,7 +22,9 @@ body {
 #navbar a {
     text-decoration: none;
     color: white;
-    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
     font-weight: bold;
 }
 
@@ -49,23 +51,39 @@ body {
     padding: 30px;
 }
 
-#hero a {
+.hero-content a {
     text-decoration: none;
     color: rgb(0, 8, 6);
     border: 3px solid black;
     padding: 20px;
-    background-color: rgb(148, 230, 243);
+    background-color: rgb(54, 163, 180);
     border-radius: 18px;
-    margin: 60px 50px;
-    align-items: center;
+    font-size: 19px;
+    margin-left: 100px;
+    color: white;
+}
 
+.hero-content a:hover {
+    background-color: #490a54;
+    padding: 17px;
+}
+
+.header {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin: 5px;
 }
 
 .single-column {
+    min-width: 650px;
     max-width: 1000px;
-    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
     padding: 80px;
     background-color: rgb(235, 205, 165);
+    margin-bottom: 20px;
 }
 
 .side-by-side {
@@ -88,7 +106,7 @@ body {
 }
 
 .side-by-side .image-container img {
-    width: 450px;
+    width: 490px;
     height: 100vh;
 }
 
@@ -99,15 +117,19 @@ body {
 }
 
 .side-by-side .text-container a {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: rgb(134, 25, 125);
-    border: 3px solid rgb(94, 15, 12);
+    background-color: rgb(54, 163, 180);
+    border: 3px solid black;
     color: white;
-    padding: 14px;
+    padding: 20px;
     border-radius: 30px;
+}
+
+.side-by-side .text-container a:hover {
+    background-color:#490a54;
 }
 
 .text-container p {
@@ -119,23 +141,18 @@ body {
 #footer {
     background: linear-gradient(to bottom, rgb(94, 182, 237), rgb(24, 161, 169));
     color: white;
-    background-color: #490a54;
-    padding: 1px;
-    text-align: left;
 }
 
 #footer-navbar {
-    margin: 0px auto;
-    display: flex;
+    text-align: center;
+    padding: 4px;
 }
 
 .single-column-2 {
-    min-width: 750px;
-    max-width: 1000px;
+    min-width: 650px;
     margin-right: auto;
     margin-left: auto;
     height: 100%;
-    padding: 80px;
     background-color: rgb(235, 205, 165);
 }
 
@@ -148,7 +165,6 @@ body {
     justify-content: center;
     font-size: 20px;
 }
-
 
 #card-section-1 p {
     padding: 20px;
@@ -187,6 +203,7 @@ body {
     text-align: center;
 }
 
+
 .side-by-side-2 {
     display: flex;
     flex-direction: row;
@@ -219,15 +236,20 @@ body {
 }
 
 .side-by-side-2 .text-container-2 a {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: rgb(134, 25, 125);
-    border: 3px solid rgb(94, 15, 12);
+    background-color: rgb(18, 142, 158);
+    border: 3px solid black;
     color: white;
     padding: 14px;
+    font-weight: bold;
     border-radius: 30px;
+}
+
+.side-by-side-2 .text-container-2 a:hover {
+    background-color: rgb(134, 25, 125);
 }
 
 .text-container-2 p {
@@ -253,48 +275,63 @@ body {
  }
 
  .card-1 p {
-    font-size: 26px;
+    font-size: 27px;
+    background-color: beige;
+    color: black;
+    border-radius: 20px;
+    margin-top: 6%;
  }
 
  .card-1 img {
-    width: 350px;
+    width: 300px;
  }
 
  .card-1 h3 {
     padding: 20px;
-    font-size: 30px;
+    font-size: 37px;
     text-align: center;
  }
 
  #text-container-3 {
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
  }
 
  .card-1 a {
     text-decoration: none;
     border: 3px solid black;
     color: white;
-    background-color: #490a54;
+    background-color:rgb(54, 163, 180);
     font-size: 20px;
-    padding: 10px 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
     border-radius: 10px;
     gap: 29px;
+ }
+
+ .card-1 a:hover {
+    background-color: #490a54;
  }
 
  #footer-2 {
     background: linear-gradient(to bottom, rgb(94, 182, 237), rgb(24, 161, 169));
     color: white;
-    text-align: left;
 }
 
 #footer-2 p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-size: 20px;
 }
 
-#footer-navbar-2 {
-    margin: 0px auto;
+#footer-2-navbar-2 {
     display: flex;
+    align-items: center;
+}
+
+#footer {
+    width: 1200px;
 }
 
 /* MOBILE BREAKPOINT*/
@@ -304,7 +341,17 @@ body {
     text-align: center;
     margin-right: 0px;
     font-size: 18px;
-    margin-top: 20px;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar a {
+    padding: 15px;
+    font-size: 15px;
 }
 
 #hero h1 {
@@ -319,11 +366,6 @@ body {
     font-weight: bold;
     padding: 34px;
     margin: 0px auto;
-}
-
-#navbar {
-    display: flex;
-    flex-direction: column;
 }
 
 #hero a {
@@ -345,7 +387,7 @@ body {
 }
 
 .side-by-side :hover a {
-    background-color: darkred;
+    background-color: rgb(134, 25, 125);
 }
 
 .side-by-side {
@@ -381,6 +423,10 @@ body {
 .card p {
     font-size: 24px;
     margin: 24px 0px 0px;
+}
+
+.card-1 a {
+    background-color: rgb(18, 142, 158);
 }
 
 #main-section {
@@ -443,13 +489,12 @@ body {
     background: linear-gradient(to bottom, rgb(94, 182, 237), rgb(24, 161, 169));
     color: white;
     padding: 1px;
-    text-align: left;
 }
 
-#footer-navbar {
-    margin: 0px auto;
+#footer-navbar-2  {
     display: flex;
-} 
+    justify-content: center;
+}
 
 .single-column-2 {
     min-width: 0px;
@@ -468,7 +513,6 @@ body {
 }
 
 .side-by-side-2 .image-container-2 {
-    width: 200px;
     height: 50vh;
     align-content: center;
 }
@@ -478,10 +522,10 @@ body {
     flex-direction: column;
 }
 .text-container-2 h3 {
-    font-size: 30px
+    font-size: 30px;
 }
 #text-container-3 h1 {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .side-by-side-2 .text-container-2 a:hover  {
@@ -489,10 +533,48 @@ body {
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: rgb(191, 65, 181);
+    background-color: rgb(134, 25, 125);
     border: 3px solid rgb(94, 15, 12);
     color: white;
     padding: 14px;
     border-radius: 30px;
+}
+
+.side-by-side-2 .text-container-2 h3 {
+    display: flex;
+    font-size: 50px;
+}
+
+.side-by-side-2 .text-container-2 p {
+    font-size: 22px;
+    text-align: left;
+}
+.single-column-2 h1 {
+    font-size: 35px;
+}
+
+#card-1 p {
+    padding: 20px;
+}
+
+
+#card-1 img {
+    padding-bottom: 20px;
+}
+
+#footer-2 {
+    background: linear-gradient(to bottom, rgb(94, 182, 237), rgb(24, 161, 169));
+    color: white;
+}
+
+#footer-2 p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#footer-navbar-2 {
+    display: flex;
 }
 }
