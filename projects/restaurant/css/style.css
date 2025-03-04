@@ -15,7 +15,7 @@ body {
 }
 
 #navbar .header {
-    font-size: 12px;
+    font-size: 14px;
     margin-right: auto;
 }
 
@@ -24,7 +24,7 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
-    padding: 40px;
+    padding: 30px;
     font-weight: bold;
 }
 
@@ -76,8 +76,7 @@ body {
 }
 
 .single-column {
-    min-width: 650px;
-    max-width: 1000px;
+    min-width: 750px;
     margin-right: auto;
     margin-left: auto;
     height: 100%;
@@ -152,7 +151,8 @@ body {
     min-width: 650px;
     margin-right: auto;
     margin-left: auto;
-    height: 100%;
+    padding-bottom: 20px;
+    margin-top: 20px;
     background-color: rgb(235, 205, 165);
 }
 
@@ -169,6 +169,7 @@ body {
 #card-section-1 p {
     padding: 20px;
 }
+
 #card-section {
     background-color: #711382;
     color: #bfefff;
@@ -201,6 +202,7 @@ body {
     border: 3px solid #bfefff;
     padding: 36px;
     text-align: center;
+    margin: 20px;
 }
 
 .side-by-side-2 {
@@ -214,24 +216,23 @@ body {
     flex: 1;
     display: flex;
     align-items: center;
-    padding: 50px;
 }
 
 .side-by-side-2 .text-container-2 {
     flex: 1;
     margin: 10px;
-    padding: 0px 27px;
+    padding: 10px;
 }
 
 .side-by-side-2 .image-container-2 img {
     width: 550px;
+    margin: 20px;
 }
 
 .side-by-side-2 .text-container-2 h1 {
     font-size: 60px;
     display: flex;
     justify-content: center;
-
 }
 
 .side-by-side-2 .text-container-2 a {
@@ -260,8 +261,10 @@ body {
 .single-column-2 h1 {
     font-size: 40px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin-top: 20px;
+    margin: 20px;
+    padding: 40px;
 }
 
 .text-container-2 h3 {
@@ -292,7 +295,6 @@ body {
     text-align: center;
  }
  
-
  #text-container-3 {
     text-align: center;
     font-size: 35px;
@@ -306,7 +308,7 @@ body {
     font-size: 20px;
     padding: 10px 30px;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     gap: 29px;
  }
 
@@ -317,6 +319,7 @@ body {
  #footer-2 {
     background: linear-gradient(to bottom, rgb(94, 182, 237), rgb(24, 161, 169));
     color: white;
+    padding: 1px;
 }
 
 #footer-2 p {
@@ -337,13 +340,14 @@ body {
 #navbar .header {
     text-align: center;
     margin-right: 0px;
-    font-size: 18px;
+    font-size: 14px;
     color: white;
 }
 
 #navbar {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #navbar a {
@@ -385,12 +389,6 @@ body {
 
 .side-by-side :hover a {
     background-color: rgb(134, 25, 125);
-}
-
-.side-by-side {
-    display: flex;
-    width: 600px;
-    height: 100vh;
 }
 
 #card-section {
@@ -505,7 +503,7 @@ body {
 
 .single-column-2 h1 {
     display: flex;
-    font-size: 25px;
+    font-size: px;
    justify-content: center;
    padding: 19px;
 }
@@ -523,7 +521,7 @@ body {
     font-size: 30px;
 }
 #text-container-3 h1 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .side-by-side-2 .text-container-2 a:hover  {
@@ -554,7 +552,6 @@ body {
 #card-1 p {
     padding: 20px;
 }
-
 
 #card-1 img {
     padding-bottom: 20px;
